@@ -1,0 +1,10 @@
+$(function() {
+	$("form").submit(function() {  
+                $('form').hide(function(){
+					$('div#thankYou').fadeIn();
+					});  
+            }  
+        });  
+    return false;  
+    });  
+});
