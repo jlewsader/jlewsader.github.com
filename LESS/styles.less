@@ -1,4 +1,7 @@
-﻿// Color Variables **********/
+﻿// Reset ***************/
+@import "reset.less";
+
+// Color Variables **********/
 @bg: #355664;
 @body-text: #fcfcfc;
 @link: #0196e3;
@@ -8,7 +11,6 @@
 @article-bg: #213E4A;
 @article-link: #cccccc;
 @article-hover: #142830;
-// *******************/
 
 // Mixins *****************/
 .border-radius (@radius: 10px) {
@@ -21,21 +23,11 @@
   -moz-box-shadow: @arguments;
   -webkit-box-shadow: @arguments;
 }
-// ********************/
 
 // END Variables and Mixins *****/
 
-/*************************************************
-************** Main Styles ***********************
-******* Built with LESS CSS (lesscss.org) ********
-********** See /LESS/styles.less file ************
-**************************************************/
+/************** Main Styles **********************/
 
-* {
-	/* Universal reset: */
-	margin: 0;
-	padding: 0;
-}
 @font-face {
 	font-family: 'CocktailScriptMedium';
 	src: url('cocktail_script-webfont.eot');
