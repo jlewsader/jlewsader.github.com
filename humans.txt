@@ -1,7 +1,7 @@
 /* the humans responsible */
 /* humanstxt.org */
 
-Justin Lewsader - Last updated 5/14/14
+Justin Lewsader - Last updated 6/10/14
 
 /* THANKS */
   Jacob Gube @ SixRevisions (http://sixrevisions.com) for jQuery slideshow plugin
@@ -9,7 +9,7 @@ Justin Lewsader - Last updated 5/14/14
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: HTML5Shiv, jQuery, LESS css (view it @ github.com/jlewsader/github.jlewsader.com/LESS/styles.less), Google APIs, Update Your Browser.net script, Chrome Frame script, 
-  Software: Notepad++, Adobe Dreamweaver, - As of April 2014... Chromebook & Cloud9 IDE :)
+  Components: HTML5Shiv, jQuery, LESS css, CoffeeScript, Google APIs, Update Your Browser.net script, Chrome Frame script,
+  Software: Notepad++, Adobe Dreamweaver, - As of April 2014... Chromebook running Chrouton distro, Caret Chrome app :)
   
 
