@@ -1,4 +1,7 @@
-﻿// Color Variables **********/
+// Reset ***************/
+@import "reset.less";
+
+// Color Variables **********/
 @bg: #355664;
 @body-text: #fcfcfc;
 @link: #0196e3;
@@ -8,7 +11,6 @@
 @article-bg: #213E4A;
 @article-link: #cccccc;
 @article-hover: #142830;
-// *******************/
 
 // Mixins *****************/
 .border-radius (@radius: 10px) {
@@ -21,23 +23,15 @@
   -moz-box-shadow: @arguments;
   -webkit-box-shadow: @arguments;
 }
-// ********************/
 
 // END Variables and Mixins *****/
 
-/*************************************************
-************** Main Styles ***********************
-**************************************************/
+/************** Main Styles **********************/
 
-* {
-	/* Universal reset: */
-	margin: 0;
-	padding: 0;
-}
 @font-face {
 	font-family: 'CocktailScriptMedium';
-	src: url('cocktail_script-webfont.eot');
-	src: local('?'), url('cocktail_script-webfont.woff') format('woff'), url('cocktail_script-webfont.ttf') format('truetype'), url('cocktail_script-webfont.svg#webfontpkChblho') format('svg');
+	src: url('resources/font_fam/cocktail_script-webfont.eot');
+	src: local('?'), url('resources/font_fam/cocktail_script-webfont.woff') format('woff'), url('resources/font_fam/cocktail_script-webfont.ttf') format('truetype'), url('resources/font_fam/cocktail_script-webfont.svg#webfontpkChblho') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -123,7 +117,7 @@ footer .line {
 }
 
 nav {
-	background: url(../Version%202/img/gradient_light.jpg) repeat-x 50% 50% @nav-bg;
+	background: url(resources/img/gradient_light.jpg) repeat-x 50% 50% @nav-bg;
 	padding: 0 5px;
 	position: absolute;
 	right: 0;
@@ -284,10 +278,10 @@ footer {
 			}
 			&.by {
 				float: left;
-			}	
+			}
 			&.up {
 				float: right;
-			}		
+			}
 		}
 }
 
@@ -347,11 +341,11 @@ footer {
 #leftControl {
 	top:0;
 	left:0;
-	background:transparent url(img/control_left.png) no-repeat 0 0;
+	background:transparent url(resources/img/control_left.png) no-repeat 0 0;
 }
 
 #rightControl {
 	top:0;
 	right:0;
-	background:transparent url(img/control_right.png) no-repeat 0 0;
+	background:transparent url(resources/img/control_right.png) no-repeat 0 0;
 }

@@ -163,8 +163,8 @@ textarea {
 /************** Main Styles **********************/
 @font-face {
   font-family: 'CocktailScriptMedium';
-  src: url('cocktail_script-webfont.eot');
-  src: local('?'), url('cocktail_script-webfont.woff') format('woff'), url('cocktail_script-webfont.ttf') format('truetype'), url('cocktail_script-webfont.svg#webfontpkChblho') format('svg');
+  src: url('resources/font_fam/cocktail_script-webfont.eot');
+  src: local('?'), url('resources/font_fam/cocktail_script-webfont.woff') format('woff'), url('resources/font_fam/cocktail_script-webfont.ttf') format('truetype'), url('resources/font_fam/cocktail_script-webfont.svg#webfontpkChblho') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -246,7 +246,7 @@ footer .line {
   margin: 2em 0;
 }
 nav {
-  background: url(../Version%202/img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+  background: url(../resources/img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
   padding: 0 5px;
   position: absolute;
   right: 0;
@@ -465,10 +465,10 @@ footer a.up {
 #leftControl {
   top: 0;
   left: 0;
-  background: transparent url(img/control_left.png) no-repeat 0 0;
+  background: transparent url(resources/img/control_left.png) no-repeat 0 0;
 }
 #rightControl {
   top: 0;
   right: 0;
-  background: transparent url(img/control_right.png) no-repeat 0 0;
+  background: transparent url(resources/img/control_right.png) no-repeat 0 0;
 }
