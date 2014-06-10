@@ -179,6 +179,9 @@ figure {
 
   display: block;
 }
+header {
+    margin-top:20px;
+}
 body {
   /* Setting the default text color, size, page background and a font stack: */
 
